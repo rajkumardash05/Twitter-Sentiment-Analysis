@@ -1,0 +1,3 @@
+## command to turn on mongoDB database service. port number canbe provided as an argument, and datapath is where you want to save your database
+mongod.exe --dbpath c:\Database
+mongod.exe --dbpath c:\Database\Train --port 27018
