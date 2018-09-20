@@ -3,10 +3,10 @@ from tweepy import OAuthHandler
 from textblob import TextBlob
 from textblob.sentiments import NaiveBayesAnalyzer
 
-consumer_key = '9JpG8wU4pYtx5dJjfEA'
-consumer_secret = '1itEhc3TBtnokwNIpAoF0xaEQRmbxn4YWmTV7H2c'
-access_token = '2373236772-pH8xEqXn7MnSu4gx7lxR9DUTM7W7YK6tng7fgsX'
-access_token_secret = 'aMcA9Qx4oOTsX9t00PvqAVuotR1ZG01QrYE7fgliJlz9C'
+consumer_key = 'enter consumer key here'
+consumer_secret = 'enter consumer secret here'
+access_token = 'enter access token here'
+access_token_secret = 'enter access token secret here'
 
 Opinion = [0.0, 0.0]
 start = 0
