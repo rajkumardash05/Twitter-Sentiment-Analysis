@@ -13,3 +13,5 @@ From the analyse panel of this dashboard, one can initiate preprocessing of the 
 To run dashboard.py, one has to create a Twitter App and need to copy the credentials from the App into functions_GH.py file. Moreover, the codes assume that there is a mongodb database service installed and run in the localhost. MongoDB_command.txt list the commands to run this service from windows command prompt.
 
 A screenshot of the dashboard is also found in dashboard.jpg file.
+
+Finally, sentimentanalyzer.py is a pilot example that can be run to stream twitter.com for a time period and compute the average sentiment of twitter users on that topic for that time period. No need of MongoDB to store the tweets, only need twitter Apps credentials. For testing, you can run with a keyword and 20 sec timelimit.
